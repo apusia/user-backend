@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/user_backend"
+    username: user_backend
+    password: user_backend
+    jpa:
+      hibernate:
+        show_sql: true
+        ddl-auto: create-drop
+#        ddl-auto: none
